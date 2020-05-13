@@ -1,0 +1,115 @@
+body {
+  font-family:Comic Sans MS, cursive, sans-serif;
+  background-image: url('https://verismohr.com/wp-content/uploads/2018/11/strategy.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+#form-block {
+  background-color: #a2f8fa;
+  opacity: 0.81;
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: 2px solid blue;
+  border-radius: 1%;
+}
+#name-label { 
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#name { 
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 5px;
+}
+#name::placeholder{
+  padding: 4px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+#email-label {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#email{
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 5px;
+}
+#email::placeholder {
+  padding: 4px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+#number-label { 
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#number { 
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 5px;
+}
+#number::placeholder {
+  padding: 4px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+#dropdown {
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 5px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+#dropdown-label {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#radio-label {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#radio-list {
+  list-style-type: none
+}
+#checkbox-label {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#checkbox-list {
+  list-style-type: none
+}
+#comment-label {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#comment {
+  display: block;
+  margin: auto;
+  width: 85%;
+  border-radius: 5px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+#submit {
+  display: block;
+  margin: auto;
+  width: 85%;
+  background-color: #34eb86;
+  border-radius: 5px;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}

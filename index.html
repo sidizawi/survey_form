@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="title">Zawi-Media-Promote Survey Form</h1>
+            <p id="description">Thank you for taking the time to introduce yourself</p>
+        </div>
+        <div id="form-block">
+            <form id="survey-form">
+            <br>
+            <label for="name" id="name-label">Name</label><br>
+            <input id="name" type="text" name="name" placeholder="your name" required>
+
+            <br><br>
+
+            <label for="email" id="email-label">Email</label> <br>
+            <input id="email" type="email" name="email" required placeholder="your email"> <!--Html validation error-->
+
+            <br><br>
+
+            <label for="number" id="number-label">Age</label><br>
+            <input id="number" type="number" name="age" min="18" max="120" step='1' required placeholder="your age"> <!--Html validation error
+                    => non-numbers-->
+
+            <br><br>
+
+            <label for="dropdown" id="dropdown-label">Level of study</label><br>
+            <select id="dropdown">
+                <option>Secondary</option>
+                <option selected>Bachelors</option>
+                <option>Master</option>
+                <option>Doctorate</option>
+                <option>Other</option>
+            </select>
+
+            <br><br>
+
+            <label id="radio-label">Do you want to start a business?</label>
+            <ul id="radio-list">
+                <li>
+                <input type="radio" id="r1" name="g1radio" value="yes">
+                <label for="r1">Yes</label>
+                </li>
+                <li>
+                <input type="radio" id="r2" name="g1radio" value="no">
+                <label for="r2">No</label>
+                </li>
+                <li>
+                <input type="radio" id="r3" name="g1radio" value="maybe">
+                <label for="r3">Maybe</label>
+                </li>
+            </ul>
+
+            <br><br>
+
+            <label id="checkbox-label">You want to be </label>
+            <ul id="checkbox-list">
+                <li>
+                <input type="checkbox" id='ch1' value='freelancer'>
+                <label for="ch1">Freelancer</label>
+                </li>
+                <li>
+                <input type="checkbox" id='ch2' value='independent'>
+                <label for="ch2">Independent contractor</label>
+                </li>
+                <li>
+                <input type="checkbox" id='ch3' value='consultant'>
+                <label for="ch3">Consultant</label>
+                </li>
+            </ul>
+
+            <br><br>
+
+            <label for="comment" id="comment-label">Any comment</label><br>
+            <textarea id="comment" name="comment" rows="6" cols="40">Enter text here...</textarea>
+
+            <br><br>
+
+            <input type="submit" id="submit">
+
+            <br></br>
+
+            </form>
+        </div><br><br>
+    </body>
+</html>
